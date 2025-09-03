@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <footer className="w-full mt-16 h-48 bg-green-500">
+        <footer className="w-full mt-16 h-48 bg-green-500 static bottom-0">
             <div className="grid grid-cols-3 gap-8 w-7xl m-auto">
                 <ul>
                     <li className="text-2xl text-white mt-4">Nyhedsbrev</li>

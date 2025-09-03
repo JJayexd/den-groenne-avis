@@ -14,7 +14,6 @@ export const FeaturedProducts = () => {
                 {data.slice(0, 6).map((item) => (
                     <figure key={item.id} className="relative group w-46 h-46 overflow-hidden">
                         <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
-                        
                         <figcaption className="absolute bottom-0 left-0 w-full 
                             bg-green-400/70 text-white text-center text-sm py-2
                             opacity-0 group-hover:opacity-100 transition-opacity duration-300">
