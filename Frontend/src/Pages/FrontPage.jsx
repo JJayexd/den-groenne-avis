@@ -1,18 +1,18 @@
-import { FeaturedProducts } from "../Components/FeaturedProducts/FeaturedProducts"
-import { DGABanner } from "../Components/DGABanner/DGABanner"
-import { FeaturedCategories } from "../Components/FeaturedCategories/FeaturedCategories"
-import { Donations } from "../Components/Donations/Donations"
+import { FeaturedProducts } from "../Components/FeaturedProducts/FeaturedProducts";
+import { DGABanner } from "../Components/DGABanner/DGABanner";
+import { FeaturedCategories } from "../Components/FeaturedCategories/FeaturedCategories";
+import { Donations } from "../Components/Donations/Donations";
 
 export const FrontPage = () => {
-    return (
-        <>
-            <FeaturedProducts />
-            <hr className="w-6xl m-auto my-4 border-t-4 border-green-500"/>
-            <DGABanner />
-            <hr className="w-6xl m-auto my-4 border-t-4 border-green-500"/>
-            <FeaturedCategories />
-            <hr className="w-6xl m-auto my-4 border-t-4 border-green-500"/>
-            <Donations />
-        </>
-    )
-}
+  return (
+    <>
+      <FeaturedProducts />
+      <hr className="max-w-6xl w-full mx-auto my-4 border-t-4 border-green-500" />
+      <DGABanner />
+      <hr className="max-w-6xl w-full mx-auto my-4 border-t-4 border-green-500" />
+      <FeaturedCategories />
+      <hr className="max-w-6xl w-full mx-auto my-4 border-t-4 border-green-500" />
+      <Donations />
+    </>
+  );
+};
