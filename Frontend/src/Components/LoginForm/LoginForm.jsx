@@ -47,7 +47,6 @@ export const LoginForm = () => {
             <h2 className="text-2xl font-bold mb-4 text-center">DGA LOGINFORM</h2>
                 {!loginData ? (
                     <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-                        <div>
                             <label className="text-black-400 font-semibold">Email</label>
                             <input
                                 type="email"
@@ -55,9 +54,7 @@ export const LoginForm = () => {
                                 className="shadow-[0px_4px_4px_-2px_rgba(0,0,0,0.1)] w-full p-2 rounded"
                             />
                             {errors.username && <p className="text-red-500">{errors.username.message}</p>}
-                        </div>
 
-                        <div>
                             <label className="text-black-400 font-semibold">Password</label>
                             <input
                                 type="password"
@@ -65,7 +62,6 @@ export const LoginForm = () => {
                                 className="shadow-[0px_4px_4px_-2px_rgba(0,0,0,0.1)] w-full p-2 rounded"
                             />
                             {errors.password && <p className="text-red-500">{errors.password.message}</p>}
-                        </div>
 
                         <div className="text-left">
                             <button

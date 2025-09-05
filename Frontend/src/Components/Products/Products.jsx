@@ -24,7 +24,6 @@ export const Products = () => {
               alt={product.name}
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
-            {/* Hover price overlay */}
             <figcaption
               className="absolute bottom-0 left-0 w-full bg-green-400/70 text-white text-center text-sm py-2
               opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -32,7 +31,6 @@ export const Products = () => {
               {product.price} DKK
             </figcaption>
           </figure>
-          {/* Product name below image */}
           <h4 className="mt-2 font-bold text-lg">{product.name}</h4>
         </NavLink>
       ))}
